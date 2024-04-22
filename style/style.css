@@ -232,8 +232,10 @@ button:hover{
         display: none;
         position: relative;
         top: 2%;
-        left: 2%;
+        left: 15%;
         transform: translate(-20%, -20%);
+        height: 100px;
+        width: 100px;
 }
 
 .github-image:hover+.github-icon {
