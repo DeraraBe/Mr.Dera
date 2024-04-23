@@ -23,8 +23,8 @@
 }
 
 .cm {
-    color: gold;
-    text-align: center;
+    color: rgb(22, 20, 27);
+    text-align: left;
 }
 .message input , .message textarea{
     width: 50%;
@@ -80,7 +80,7 @@ button:hover{
         box-shadow: 0px 0px 10px 1px blue;
     }
     .top DERARA BELACHEW{
-        text-align: left;
+        text-align: center;
     }
     * {
         box-sizing:border-box;
@@ -144,7 +144,7 @@ button:hover{
     }
 
     .db {
-        color: gold;
+        color: rgb(119, 0, 255);
     }
 
     p {
@@ -208,20 +208,20 @@ button:hover{
 }
 
 .font {
-        color: gold;
-        text-align: center;
+        color: rgb(22, 20, 27);
+        text-align: left;
 }
 
 .p1 p {
-        color: goldenrod;
+        color: rgb(22, 20, 27);
 }
 
 .p2 p {
-        color: goldenrod;
+        color: rgb(22, 20, 27);
 }
 
 .p3 p {
-        color: goldenrod;
+        color: rgb(22, 20, 27);
 }
 
 .github-image {
@@ -243,7 +243,7 @@ button:hover{
 }
 
 #s {
-    color: gold;
+    color: rgb(22, 20, 27);
     text-align: center;
     width: 50%;
     border: 1px solid #ccc;
@@ -256,7 +256,7 @@ button:hover{
 
 body {
     display: flexbox;
-    background: #06021b;
+    background: #ffffff;
     font-size: larger;
 
 
@@ -264,90 +264,57 @@ body {
 
 
 .t2 {
-    color: gold;
-    text-align: center;
-}
-/*mobile viwe*/
-@media screen and (max-width: 600px) {
-    .top {
-      padding: 10px;
-    }
-    
-    .s
-    {
-      padding: 10px;
-    }
-    .butt{
-        padding: 10px;
-    }
-  }
- /* Media queries */
-        @media only screen and (max-width: 600px) {
-            /* Styles for devices with maximum width of 600px */
-            .font {
-                font-size: 14px;
-            }
-        }
-
-        @media only screen and (min-width: 601px) and (max-width: 1024px) {
-            /* Styles for devices with minimum width of 601px and maximum width of 1024px */
-            .font {
-                font-size: 16px;
-            }
-        }
-
-        @media only screen and (min-width: 1025px) {
-            /* Styles for devices with minimum width of 1025px */
-            .font {
-                font-size: 18px;
-            }
-        }
-        
-@media (max-width: 900px) {
-    /* Styles for devices with maximum width of 900px */
-    .container {
-        width: 80%;
-        margin: 5%;
-    }
-
-    .p1,
-    .p2,
-    .p3,
-    #s,
-    #contact {
-        width: 80%;
-        margin: 5%;
-    }
-
-    .top {
-        padding: 10px;
-    }
-
-    .s {
-        padding: 10px;
-    }
-
-    .butt {
-        padding: 10px;
-    }
+    color: rgb(22, 20, 27);
+    text-align: left;
 }
 
-@media screen and (max-width: 600px) {
-    /* Styles for devices with maximum width of 600px (mobile devices) */
-    .top {
-        padding: 10px;
-        font-size: 14px;
-    }
+/* Mobile Styles */
 
-    .s {
-        padding: 10px;
-    }
-
-    .butt {
-        padding: 10px;
-    }
+/* Adjust font sizes for better readability */
+body {
+    font-size: 16px; /* Adjust as needed */
 }
 
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Increase button sizes and spacing for touch-friendly interaction */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Make navigation menu collapsible for mobile */
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top a {
+    margin-bottom: 10px;
+}
+
+/* Adjust layout for smaller screens */
+@media screen and (max-width: 480px) {
+    /* Example adjustments */
+    /* You may need to tweak these values based on your design */
+    .top a {
+        display: block;
+        margin: 5px auto;
+    }
+
+    .skills {
+        width: 80%; /* Adjust width as needed */
+    }
+
+    .font {
+        font-size: 14px; /* Adjust font size as needed */
+    }
+}
 
 
 
