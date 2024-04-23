@@ -13,6 +13,10 @@ function changeColorScheme() {
   body.className = `color-scheme-${currentColorScheme}`;
 }
 function openGitHubProject1() {
-  window.location.href = 'https://github.com/users/derarabelachew/projects/1/views/1';
+  window.location.href = 'https://github.com/users/DeraraBe/projects/1/views/1';
+}
+
+function openGitHubProject2() {
+  window.location.href = 'https://github.com/users/DeraraBe/projects/1/views/1';
 }
 // fix my project for mobile viwe 
